@@ -5,11 +5,11 @@
 body {
     margin: 0;
     padding: 0;
-    min-width: 1500px; 
+    width: 100%;
+    overflow-x: hidden;
 }
 .container {
-    display: flex;
-    width: 1500px;      
+    display: flex;     
     height: 100vh;
   }
 img {
@@ -68,12 +68,12 @@ h2 {
 }
 .input-pair label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     font-size: 12px;
   }
   
   .input-pair input {
-    width: 300px;
+    width: 260px;
     padding: 8px;
     font-size: 14px;
     box-sizing: border-box;
@@ -102,4 +102,15 @@ input:invalid {
     outline: none;
     box-shadow: 0 0 1px 1px rgba(255, 0, 0, 0.2);
 }
-
+button {
+    color: white;
+    background-color: #596D48;
+    font-size: 16px;
+    padding: 15px;
+    width: 220px;
+    border-radius: 5px;
+    border: none;
+    margin: 50px;
+    font-weight: bold;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
