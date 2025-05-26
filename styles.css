@@ -95,5 +95,11 @@ h2 {
 input:focus {
     border: 1px solid blue;
     outline: none;
-    box-shadow: 0 0 1px 1px rgba(0, 0, 255, 0.2);;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 255, 0.2);
 }
+input:invalid {
+    border: 1px solid red;
+    outline: none;
+    box-shadow: 0 0 1px 1px rgba(255, 0, 0, 0.2);
+}
+
